@@ -8,3 +8,5 @@ It is useful in business because:
 
 The model is trained on the FashionMNIST dataset class which has 60,000 training images and 10,000 test images. It is a Convolutional Neural Network that I initially trained to run for 50 epochs, but because of an early stopping function I applied, the model was able to achieve its best value at 15 epochs and didn't need to run all the way to 50. This early stopping mechanism monitors validation loss and stops training if it doesn’t improve for a certain number of epochs (the "patience" argument, which I set to 5).
 This helps optimize the number of training epochs and prevent overfitting. The model achieved an accuracy of apprx 90%.
+
+#### I am not able to upload the dataset here yet, but it can always be downloaded from other sources.
